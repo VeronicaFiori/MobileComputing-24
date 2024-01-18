@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: sign
+    uniqueID: 41182221
+    locked: 0
   - name: giocatore
     uniqueID: 2501818213
     locked: 0
