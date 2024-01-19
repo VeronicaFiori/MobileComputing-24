@@ -149,8 +149,8 @@ Transform:
   m_GameObject: {fileID: 209718533}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.09000015, y: -1.14, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.132, y: -1.226, z: 0}
+  m_LocalScale: {x: 1, y: 1.1279, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 869173815}
@@ -193,11 +193,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1793149083
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1946102832, guid: 3665e11353d196843b91bf8749f403ae, type: 3}
-  m_Color: {r: 0.3584906, g: 0.33278748, b: 0.33278748, a: 0.47058824}
+  m_Color: {r: 0.5188679, g: 0.45229617, b: 0.45229617, a: 0.5058824}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -269,7 +269,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.8739724
+  orthographic size: 4.4336596
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -695,8 +695,8 @@ Transform:
   m_GameObject: {fileID: 869173812}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.07, y: 2.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 7.0939, y: 2.3119, z: 0}
+  m_LocalScale: {x: 1.1494, y: 0.9253, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 209718534}
@@ -787,12 +787,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 2
-  enemyName: L'uomo di pietra
+  enemyName: L'uomo pietra
   baseAttack: 1
   moveSpeed: 1.5
   target: {fileID: 0}
   chaseRadius: 4
-  attackRadius: 1
+  attackRadius: 2
   homePosition: {fileID: 0}
 --- !u!1 &938160534
 GameObject:

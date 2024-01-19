@@ -22,7 +22,7 @@ public class UomoDiPietra : Nemico
     void CheckDistance()
     {
         if (Vector3.Distance(target.position,transform.position) <= chaseRadius
-            && Vector3.Distance(target.position,transform.position)>attackRadius) 
+            && Vector3.Distance(target.position, transform.position) > attackRadius) 
         {
             transform.position = Vector3.MoveTowards(transform.position,target.position,moveSpeed*Time.deltaTime);
         }
