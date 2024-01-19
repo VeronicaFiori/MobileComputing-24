@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 567021991}
   m_Layer: 0
   m_Name: up hit box
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -415,9 +415,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 567021988}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a37deccb4415edf4d9d30b4fede08989, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a84bd2a7411ded4e8db50b4ed2c6533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thrust: 2
+  knockTime: 0.2
 --- !u!1 &731196654
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,7 +512,7 @@ GameObject:
   - component: {fileID: 761462505}
   m_Layer: 0
   m_Name: down hit box
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -589,9 +591,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 761462502}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a37deccb4415edf4d9d30b4fede08989, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a84bd2a7411ded4e8db50b4ed2c6533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thrust: 2
+  knockTime: 0.2
 --- !u!1 &869173812
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,6 +610,8 @@ GameObject:
   - component: {fileID: 869173817}
   - component: {fileID: 869173816}
   - component: {fileID: 869173818}
+  - component: {fileID: 869173819}
+  - component: {fileID: 869173820}
   m_Layer: 0
   m_Name: UomoDiPietra
   m_TagString: enemy
@@ -734,7 +740,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.010231316, y: -0.5364861}
+  m_Offset: {x: 0.0003117919, y: -0.52775496}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -745,7 +751,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9795374, y: 0.9653388}
+  m_Size: {x: 1.8881623, y: 0.9478766}
   m_EdgeRadius: 0
 --- !u!50 &869173817
 Rigidbody2D:
@@ -796,6 +802,65 @@ MonoBehaviour:
   attackRadius: 2
   homePosition: {fileID: 0}
   anim: {fileID: 0}
+--- !u!114 &869173819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869173812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a84bd2a7411ded4e8db50b4ed2c6533, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thrust: 4
+  knockTime: 0.2
+--- !u!61 &869173820
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869173812}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0000003874302, y: 0.026193619}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 2, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.9437702, y: 1.9476128}
+  m_EdgeRadius: 0
 --- !u!1 &938160534
 GameObject:
   m_ObjectHideFlags: 0
@@ -12665,7 +12730,7 @@ GameObject:
   - component: {fileID: 1214869832}
   m_Layer: 0
   m_Name: right hit box
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12746,9 +12811,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1214869829}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a37deccb4415edf4d9d30b4fede08989, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a84bd2a7411ded4e8db50b4ed2c6533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thrust: 2
+  knockTime: 0.2
 --- !u!1 &1417425851
 GameObject:
   m_ObjectHideFlags: 0
@@ -13063,20 +13130,51 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1552935608
-MonoBehaviour:
+--- !u!61 &1552935608
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552935601}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a84bd2a7411ded4e8db50b4ed2c6533, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thrust: 3
-  knockTime: 0.4
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.001624912, y: -0.14735419}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 2}
+    newSize: {x: 1, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.57832116, y: 1.0336298}
+  m_EdgeRadius: 0
 --- !u!1 &1632001282
 GameObject:
   m_ObjectHideFlags: 0
@@ -18408,7 +18506,7 @@ GameObject:
   - component: {fileID: 2071933107}
   m_Layer: 0
   m_Name: 'left hit box '
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18496,9 +18594,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2071933104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a37deccb4415edf4d9d30b4fede08989, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a84bd2a7411ded4e8db50b4ed2c6533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thrust: 2
+  knockTime: 0.2
 --- !u!1001 &57016652811838055
 PrefabInstance:
   m_ObjectHideFlags: 0
