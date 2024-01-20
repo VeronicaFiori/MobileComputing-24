@@ -509,6 +509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   knockTime: 0.2
+  damage: 1
 --- !u!1 &731196654
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,6 +686,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   knockTime: 0.2
+  damage: 1
 --- !u!1 &869173812
 GameObject:
   m_ObjectHideFlags: 0
@@ -882,7 +884,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  health: 2
+  maxHealth: {fileID: 11400000, guid: e10a748ec9cf43c4c8b6a5b17ab550af, type: 2}
+  health: 0
   enemyName: L'uomo pietra
   baseAttack: 1
   moveSpeed: 1.5
@@ -905,6 +908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 4
   knockTime: 0.2
+  damage: 0
 --- !u!61 &869173820
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12905,6 +12909,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   knockTime: 0.2
+  damage: 1
 --- !u!1 &1417425851
 GameObject:
   m_ObjectHideFlags: 0
@@ -18599,6 +18604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   knockTime: 0.2
+  damage: 1
 --- !u!1001 &57016652811838055
 PrefabInstance:
   m_ObjectHideFlags: 0
