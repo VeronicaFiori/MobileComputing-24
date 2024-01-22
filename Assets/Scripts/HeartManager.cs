@@ -8,8 +8,10 @@ public class HeartManager : MonoBehaviour
     public Image[] hearts;
     public Sprite fullHearts;
     public Sprite halfFullHeart;
-    public Sprite emprtHeart;
+    public Sprite emptyHeart;
     public FloatValue heartContainers;
+    public FloatValue playerCurrentHealth;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,29 @@ public class HeartManager : MonoBehaviour
             hearts[i].gameObject.SetActive(true);
             hearts[i].sprite = fullHearts;
 
+        }
+ 
+    }
+
+    public void UpdateHearts()
+    {
+        float tempHealth = playerCurrentHealth.RuntimeValue / 2;
+        for (int i = 0; i < heartContainers.initialValue; i++)
+        {
+            if (i <= tempHealth - 1)
+            {
+                hearts[i].sprite = fullHearts;
+            }
+            else if (i >= tempHealth)
+            {
+                hearts[i].sprite = emptyHeart;
+
+            }
+            else
+            {
+                hearts[i].sprite = halfFullHeart;
+
+            }
         }
     }
 }
