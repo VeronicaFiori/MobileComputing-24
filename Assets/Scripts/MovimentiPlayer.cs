@@ -20,6 +20,7 @@ public class MovimentiPlayer : MonoBehaviour
     private Animator animator;
     public FloatValue currentHealth;
     public SignalGame playerHealthSignal;
+    public VectorValue startingPosition;
     void Start()
     {
         currentState = PlayerState.walk;
@@ -27,7 +28,7 @@ public class MovimentiPlayer : MonoBehaviour
         myRigidbody = GetComponent<Rigidbody2D>();
         animator.SetFloat("moveX", 0);
         animator.SetFloat("moveY", -1);
-
+        transform.position = startingPosition.initialValue;
     }
 
     // Update is called once per frame
