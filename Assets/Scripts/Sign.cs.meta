@@ -3,7 +3,11 @@ guid: 5d76dc248556f48489de9262d3389c1f
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - contextOn: {fileID: 11400000, guid: dfbe2701a49c8274aad2aa8afc0bc5e4, type: 2}
+  - contextOff: {fileID: 11400000, guid: 647fe33fbaa56874fb35eacc61bd5d91, type: 2}
+  - dialogBox: {instanceID: 0}
+  - dialogText: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
