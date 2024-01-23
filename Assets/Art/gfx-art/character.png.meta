@@ -383,9 +383,9 @@ TextureImporter:
       name: character_11
       rect:
         serializedVersion: 2
-        x: 208
+        x: 215
         y: 224
-        width: 16
+        width: 17
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -404,12 +404,12 @@ TextureImporter:
       name: character_12
       rect:
         serializedVersion: 2
-        x: 224
+        x: 258
         y: 224
-        width: 16
+        width: 14
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5135374, y: 0.52030563}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1786,6 +1786,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: character_78
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 244
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c781475f1c2a54f4dae811b26779ffc8
+      internalID: -1728309438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1873,6 +1894,7 @@ TextureImporter:
       character_75: -485098717
       character_76: -1458760719
       character_77: -965380266
+      character_78: -1728309438
       character_8: -1461485420
       character_9: 1156941723
   mipmapLimitGroupName: 
