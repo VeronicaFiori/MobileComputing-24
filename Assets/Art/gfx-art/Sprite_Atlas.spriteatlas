@@ -271,6 +271,7 @@ SpriteAtlas:
     - ccba899112fe75a43b8c093d3f0988f5: -444783062
     - ccba899112fe75a43b8c093d3f0988f5: -257675698
     - f11250d10fabf364b9c6a50f49cfef4a: 21300000
+    - 7ac4b8e142c1fa044a107336b749bc5a: 1045452535
     - 7ac4b8e142c1fa044a107336b749bc5a: -280808369
     - 7ac4b8e142c1fa044a107336b749bc5a: -1202085037
     - 7ac4b8e142c1fa044a107336b749bc5a: -678983967
@@ -2586,6 +2587,7 @@ SpriteAtlas:
   - {fileID: -444783062, guid: ccba899112fe75a43b8c093d3f0988f5, type: 3}
   - {fileID: -257675698, guid: ccba899112fe75a43b8c093d3f0988f5, type: 3}
   - {fileID: 21300000, guid: f11250d10fabf364b9c6a50f49cfef4a, type: 3}
+  - {fileID: 1045452535, guid: 7ac4b8e142c1fa044a107336b749bc5a, type: 3}
   - {fileID: -280808369, guid: 7ac4b8e142c1fa044a107336b749bc5a, type: 3}
   - {fileID: -1202085037, guid: 7ac4b8e142c1fa044a107336b749bc5a, type: 3}
   - {fileID: -678983967, guid: 7ac4b8e142c1fa044a107336b749bc5a, type: 3}
@@ -4900,6 +4902,7 @@ SpriteAtlas:
   - objects_109
   - objects_108
   - cloud_tileA2_2
+  - hearts-red_3
   - hearts-red_2
   - hearts-red_1
   - hearts-red_0
