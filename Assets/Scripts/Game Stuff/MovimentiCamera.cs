@@ -9,9 +9,12 @@ public class MovimentiCamera : MonoBehaviour {
     public Vector2 maxPosition;
     public Vector2 minPosition;
 
+    public Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
     }
 
@@ -44,4 +47,16 @@ public class MovimentiCamera : MonoBehaviour {
         return position;
     
   }
+
+    public void BeginKick()
+    {
+        anim.SetBool("kick_active", true);
+        StartCoroutine(KickCo());
+
+    }
+
+    public IEnumerator KickCo() {
+        yield return null;
+        anim.SetBool("kick_active", false);
+    }
 }
