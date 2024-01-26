@@ -5852,6 +5852,10 @@ MonoBehaviour:
   sceneToLoad: SampleScene
   playerPosition: {x: -6.6, y: 1.27}
   playerStorage: {fileID: 11400000, guid: 57139640cf21346419c77c883303ce48, type: 2}
+  cameraNewMax: {x: 0, y: 0}
+  cameraNewMin: {x: 0, y: 0}
+  cameraMin: {fileID: 11400000, guid: 58572061732a0694996e736d48a6933c, type: 2}
+  cameraMax: {fileID: 11400000, guid: 07d588f28f26a004eb3644613c40ae96, type: 2}
   fadeInPanel: {fileID: 5484961136319896345, guid: 79649a8a3f9f5d344872115d971240ba, type: 3}
   fadeOutPanel: {fileID: 5483628759055177035, guid: 6fcfa93fbf406ce46a135ca9fff1d9bc, type: 3}
   fadeWait: 0.33

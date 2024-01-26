@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HouseInterior.unity
     guid: a18dd476efbf5984c935b7a4190aa337
+  - enabled: 1
+    path: Assets/Scenes/TorreInterno.unity
+    guid: 8aa1e4a13aae37f42aa340a00f758fa7
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 84d0859acdf0cdb4f9de981aca9c70c8, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 799da23bd461bf947b8c82406ce58469, type: 2}

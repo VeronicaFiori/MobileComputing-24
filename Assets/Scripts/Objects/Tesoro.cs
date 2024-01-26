@@ -5,19 +5,29 @@ using UnityEngine.UI;
 
 public class Tesoro : Interactable
 {
-
+    [Header("Contents")]
     public Item contents;
     public Inventory playerInventory;
     public bool isOpen;
+    public BoolValue storedOpen;
+
+    [Header("Signals and Dialog")]
     public SignalGame raiseItem;
     public GameObject dialogBox;
     public Text dialogText;
+
+    [Header("Animation")]
     private Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        isOpen = storedOpen.RuntimeValue;
+
+        if(isOpen)
+        { anim.SetBool("opened", true); 
+        }
     }
 
     // Update is called once per frame
@@ -51,6 +61,7 @@ public class Tesoro : Interactable
         context.Raise();
         isOpen = true;
         anim.SetBool("opened", true);
+        storedOpen.RuntimeValue = isOpen;
 
     }
 

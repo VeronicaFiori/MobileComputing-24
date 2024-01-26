@@ -810,8 +810,10 @@ MonoBehaviour:
   target: {fileID: 1552935603}
   smoothing: 0.4
   maxPosition: {x: 0.22, y: 5.17}
-  minPosition: {x: -2.28, y: -7.23}
+  minPosition: {x: -2.2, y: -7.23}
   anim: {fileID: 0}
+  camMin: {fileID: 11400000, guid: 156559e9e3871094f8e2c9f2ddd00c41, type: 2}
+  camMax: {fileID: 11400000, guid: e68e7d28c1bad2f4d96ae67610d86ed7, type: 2}
 --- !u!95 &519420034
 Animator:
   serializedVersion: 5
@@ -42001,8 +42003,56 @@ PrefabInstance:
       value: Transizione Torre
       objectReference: {fileID: 0}
     - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
+      propertyPath: fadeWait
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
+      propertyPath: cameraMax
+      value: 
+      objectReference: {fileID: 11400000, guid: 3dda04ae4ada0ba42bbd617211b573ac, type: 2}
+    - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
+      propertyPath: cameraMin
+      value: 
+      objectReference: {fileID: 11400000, guid: ea0b5191738bc3847af7a68aaf59f84c, type: 2}
+    - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
+      propertyPath: fadeInPanel
+      value: 
+      objectReference: {fileID: 5484961136319896345, guid: 79649a8a3f9f5d344872115d971240ba, type: 3}
+    - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
       propertyPath: sceneToLoad
       value: TorreInterno
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
+      propertyPath: fadeOutPanel
+      value: 
+      objectReference: {fileID: 5483628759055177035, guid: 6fcfa93fbf406ce46a135ca9fff1d9bc, type: 3}
+    - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
+      propertyPath: playerStorage
+      value: 
+      objectReference: {fileID: 11400000, guid: 57139640cf21346419c77c883303ce48, type: 2}
+    - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
+      propertyPath: cameraNewMax.x
+      value: 8.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
+      propertyPath: cameraNewMax.y
+      value: 4.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
+      propertyPath: cameraNewMin.x
+      value: -7.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
+      propertyPath: cameraNewMin.y
+      value: -4.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
+      propertyPath: playerPosition.x
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
+      propertyPath: playerPosition.y
+      value: -3.56
       objectReference: {fileID: 0}
     - target: {fileID: 5224244755638062081, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
       propertyPath: m_Size.x
@@ -42108,9 +42158,9 @@ GameObject:
   - component: {fileID: 1426646604}
   - component: {fileID: 1426646609}
   m_Layer: 0
-  m_Name: Tesoro
+  m_Name: Tesoro A
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -42131,6 +42181,7 @@ MonoBehaviour:
   contents: {fileID: 11400000, guid: a877b80ea89c4464083f84fd1c4a327c, type: 2}
   playerInventory: {fileID: 11400000, guid: c3baee2d4b8cd8c4b96ef60dc4c203d4, type: 2}
   isOpen: 0
+  storedOpen: {fileID: 11400000, guid: 3aaeeaabcc8aad84f95224ca7b038890, type: 2}
   raiseItem: {fileID: 11400000, guid: ab0ddb81c7fd8d84fac6b6722d143cd9, type: 2}
   dialogBox: {fileID: 8526816387946406726}
   dialogText: {fileID: 3084707502295048422}
@@ -42413,6 +42464,37 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.61515015, y: 0.6075}
   m_EdgeRadius: 0
+--- !u!1 &1576410803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1576410804}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1576410804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576410803}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.98, y: -0.85, z: 0.10888384}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1603052373
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42619,12 +42701,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4591795977985881473, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
       propertyPath: m_Name
-      value: Scene Transition
+      value: House Transition
       objectReference: {fileID: 0}
     - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
       propertyPath: fadeWait
       value: 0.33
       objectReference: {fileID: 0}
+    - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
+      propertyPath: cameraMax
+      value: 
+      objectReference: {fileID: 11400000, guid: 99d0b67fbef9d5d45ad788d56394d175, type: 2}
+    - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
+      propertyPath: cameraMin
+      value: 
+      objectReference: {fileID: 11400000, guid: e769b2b8257b31c4faff746f6ee876cf, type: 2}
     - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
       propertyPath: fadeInPanel
       value: 
@@ -57963,6 +58053,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7965509337890670113, guid: 547d38347a4c59f4cbcc21b4cc661a7f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 100.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965509337890670113, guid: 547d38347a4c59f4cbcc21b4cc661a7f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -32
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -58410,3 +58508,4 @@ SceneRoots:
   - {fileID: 1416269483}
   - {fileID: 2027730129982135734}
   - {fileID: 7056927152361500483}
+  - {fileID: 1576410804}
