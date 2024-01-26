@@ -5,10 +5,13 @@ using UnityEngine;
 public class UomoDiPietra : Nemico
 {
     public Rigidbody2D myRigidbody;
+    [Header("Target Variables")]
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
     public Transform homePosition;
+
+    [Header("Animator")]
     public Animator anim;
     // Start is called before the first frame update
     void Start()
@@ -17,7 +20,7 @@ public class UomoDiPietra : Nemico
         myRigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         target = GameObject.FindWithTag("Player").transform;
-        anim.SetBool("wakeUp", true);
+        // anim.SetBool("wakeUp", true);
     }
 
     // Update is called once per frame
@@ -75,7 +78,7 @@ public class UomoDiPietra : Nemico
             }
         }
     }
-    private void ChangeState(EnemyState newState)
+    public void ChangeState(EnemyState newState)
     {
         if(currentState != newState)
         {

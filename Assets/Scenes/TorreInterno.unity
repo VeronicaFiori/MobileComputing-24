@@ -7239,7 +7239,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.9999995
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -7264,7 +7264,7 @@ Transform:
   m_GameObject: {fileID: 677610146}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.44, y: 1.11, z: -10}
+  m_LocalPosition: {x: 0.44, y: 0.98, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7284,8 +7284,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 413993427}
   smoothing: 0.4
-  maxPosition: {x: 0.5, y: 0}
-  minPosition: {x: 0.5, y: -4.92}
+  maxPosition: {x: 0.44, y: 0.98}
+  minPosition: {x: 0.44, y: 0.98}
   anim: {fileID: 0}
   camMin: {fileID: 11400000, guid: ea0b5191738bc3847af7a68aaf59f84c, type: 2}
   camMax: {fileID: 11400000, guid: 3dda04ae4ada0ba42bbd617211b573ac, type: 2}
@@ -9787,11 +9787,11 @@ PrefabInstance:
     - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
       propertyPath: cameraMax
       value: 
-      objectReference: {fileID: 11400000, guid: 3dda04ae4ada0ba42bbd617211b573ac, type: 2}
+      objectReference: {fileID: 11400000, guid: 71b3206a68a16894fa37df49b9b76666, type: 2}
     - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
       propertyPath: cameraMin
       value: 
-      objectReference: {fileID: 11400000, guid: ea0b5191738bc3847af7a68aaf59f84c, type: 2}
+      objectReference: {fileID: 11400000, guid: d74f1732c29f80c459bfbc3f5c1b5655, type: 2}
     - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
       propertyPath: fadeInPanel
       value: 
@@ -9806,19 +9806,19 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 57139640cf21346419c77c883303ce48, type: 2}
     - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
       propertyPath: cameraNewMax.x
-      value: 0
+      value: 26.76
       objectReference: {fileID: 0}
     - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
       propertyPath: cameraNewMax.y
-      value: 0
+      value: 5.14
       objectReference: {fileID: 0}
     - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
       propertyPath: cameraNewMin.x
-      value: 0
+      value: 23.17
       objectReference: {fileID: 0}
     - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
       propertyPath: cameraNewMin.y
-      value: 0
+      value: -6.81
       objectReference: {fileID: 0}
     - target: {fileID: 4959175141097872869, guid: de1892324ff56f842b7493c8f17d9bf0, type: 3}
       propertyPath: playerPosition.x

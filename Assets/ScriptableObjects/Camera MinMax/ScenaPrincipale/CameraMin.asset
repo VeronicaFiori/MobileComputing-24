@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0384f432bbe6b84a912a462a66b0f8d, type: 3}
   m_Name: CameraMin
   m_EditorClassIdentifier: 
-  initialValue: {x: 0, y: 0}
-  defaultValue: {x: 23.17, y: -6.81}
+  initialValue: {x: -2.28, y: -7.23}
+  defaultValue: {x: -2.28, y: -7.23}
