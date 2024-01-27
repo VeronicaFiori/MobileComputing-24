@@ -13,7 +13,7 @@ public class Knockback : MonoBehaviour
     {
         if (other.gameObject.CompareTag("breakable") && this.gameObject.CompareTag("Player"))
         {
-            other.GetComponent<pot>().Smash();
+            other.GetComponent<Pot>().Smash();
         }
 
         if (other.gameObject.CompareTag("enemy") || other.gameObject.CompareTag("Player"))

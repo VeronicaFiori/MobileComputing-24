@@ -18,12 +18,14 @@ public class Nemico : MonoBehaviour
     public string enemyName;
     public int baseAttack;
     public float moveSpeed;
+
     public GameObject deathEffect;
 
     private void Awake()
     {
         health = maxHealth.initialValue;
     }
+
 
     private void TakeDamage(float damage)
     {

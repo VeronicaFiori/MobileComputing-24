@@ -2186,13 +2186,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_97
+      name: up
       rect:
         serializedVersion: 2
         x: 0
         y: 160
-        width: 14
-        height: 31
+        width: 15
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2207,13 +2207,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_98
+      name: down
       rect:
         serializedVersion: 2
         x: 16
         y: 160
-        width: 14
-        height: 31
+        width: 15
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3183,6 +3183,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      down: 1735365289
       objects_0: 482559360
       objects_1: 1193401477
       objects_10: 716725495
@@ -3324,9 +3325,8 @@ TextureImporter:
       objects_94: 1023219771
       objects_95: -419171282
       objects_96: -420956232
-      objects_97: 1710141896
-      objects_98: 1735365289
       objects_99: -1765348439
+      up: 1710141896
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
