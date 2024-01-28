@@ -33,7 +33,7 @@ public class Tesoro : Interactable
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && playerInRange )
+        if (Input.GetButtonDown("attack") && playerInRange )
         {
             if (!isOpen)
             {

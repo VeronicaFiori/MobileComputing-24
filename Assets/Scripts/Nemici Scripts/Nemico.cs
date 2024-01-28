@@ -18,22 +18,50 @@ public class Nemico : MonoBehaviour
     public string enemyName;
     public int baseAttack;
     public float moveSpeed;
+    public Vector2 homePosition;
 
     public GameObject deathEffect;
+    // private float deathEffectDelay = 1f;
+    public LootTable thisLoot;
+
+    public SignalGame roomSignal;
 
     private void Awake()
     {
         health = maxHealth.initialValue;
     }
 
-
+    private void OnEnable()
+    {
+        //transform.position = homePosition;
+        health = maxHealth.initialValue;
+        currentState = EnemyState.idle;
+    }
     private void TakeDamage(float damage)
     {
         health -= damage;
         if(health <= 0)
         {
             DeathEffect();
+            MakeLoot();
+            if(roomSignal!= null)
+            {
+                roomSignal.Raise();
+
+            }
             this.gameObject.SetActive(false);
+        }
+    }
+
+    private void MakeLoot()
+    {
+        if(thisLoot != null)
+        {
+            PowerUp current = thisLoot.LootPowerUp();
+            if(current!= null)
+            {
+                Instantiate(current.gameObject, transform.position, Quaternion.identity);
+            }
         }
     }
 

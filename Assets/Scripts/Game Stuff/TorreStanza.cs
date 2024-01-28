@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TorreStanza : MonoBehaviour
+public class TorreStanza : Stanza
 {
     // Start is called before the first frame update
     void Start()
