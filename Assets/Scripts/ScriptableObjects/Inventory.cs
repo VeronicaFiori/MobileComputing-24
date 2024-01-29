@@ -10,6 +10,15 @@ public class Inventory : ScriptableObject
     public int numberOfKeys;
     public int stars;
 
+    public bool CheckForItem(Item item)
+    {
+        if (items.Contains(item))
+        {
+            return true;
+        }
+        return false;
+    }
+
     public void AddItem(Item itemToAdd)
     {
         if (itemToAdd.isKey)

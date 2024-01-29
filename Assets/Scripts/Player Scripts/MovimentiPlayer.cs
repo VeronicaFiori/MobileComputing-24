@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public enum PlayerState
 {
@@ -24,6 +25,10 @@ public class MovimentiPlayer : MonoBehaviour
     public Inventory playerInventory;
     public SpriteRenderer receivedItemSprite;
     public SignalGame playerHit;
+
+
+    public GameObject projectile;
+    public Item bottigliaPozione;
 
     void Start()
     {
@@ -51,7 +56,14 @@ public class MovimentiPlayer : MonoBehaviour
         {
             StartCoroutine(AttackCo());
         }
-
+        else if (Input.GetButtonDown("Second Weapon") && currentState != PlayerState.attack
+          && currentState != PlayerState.stagger)
+        {
+            if (playerInventory.CheckForItem(bottigliaPozione))
+            {
+                StartCoroutine(SecondAttackCo());
+            }
+        }
         else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
         {
             UpdateAnimationAndMove();
@@ -72,6 +84,33 @@ public class MovimentiPlayer : MonoBehaviour
         }
     }
 
+    private IEnumerator SecondAttackCo()
+    {
+        //animator.SetBool("attacking", true);
+        currentState = PlayerState.attack;
+        yield return null;
+        MakePozione();
+        //animator.SetBool("attacking", false);
+        yield return new WaitForSeconds(.3f);
+        if (currentState != PlayerState.interact)
+        {
+            currentState = PlayerState.walk;
+        }
+    }
+
+    private void MakePozione()
+    {
+        Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+        Pozione pozione = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Pozione>();
+        pozione.Setup(temp, ChooseDirection());
+
+    }
+
+    Vector3 ChooseDirection()
+    {
+        float temp = Mathf.Atan2(animator.GetFloat("moveY"), animator.GetFloat("moveX")) * Mathf.Rad2Deg;
+        return new Vector3(0, 0, temp);
+    }
     public void RaiseItem()
     {
         if (playerInventory.currentItem != null)
