@@ -43534,6 +43534,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 667548606790503627, guid: 11d40c22a6cf78f48b9bd7e5b186e356, type: 3}
   m_PrefabInstance: {fileID: 509161628622559248}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1472286776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1472286778}
+  - component: {fileID: 1472286777}
+  m_Layer: 0
+  m_Name: TimelineManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &1472286777
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472286776}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 78fbadcc7a7bf3e478e4638d7fa5ca8b, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -2575936911168705880, guid: 78fbadcc7a7bf3e478e4638d7fa5ca8b, type: 2}
+    value: {fileID: 1614825303}
+  - key: {fileID: -6186073540292343681, guid: 78fbadcc7a7bf3e478e4638d7fa5ca8b, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -8204093254233461275, guid: 78fbadcc7a7bf3e478e4638d7fa5ca8b, type: 2}
+    value: {fileID: 1614825303}
+  - key: {fileID: 7252009033728024333, guid: 78fbadcc7a7bf3e478e4638d7fa5ca8b, type: 2}
+    value: {fileID: 8526816387946406726}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &1472286778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472286776}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.22959681, y: 2.1076837, z: 0.76052284}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1533516116
 GameObject:
   m_ObjectHideFlags: 0
@@ -43815,6 +43872,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1284356443387218342, guid: 80ec679bcec32a94c9c6cbe49d81dad2, type: 3}
   m_PrefabInstance: {fileID: 1603052373}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1614825303 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3824669371876736472, guid: d75d2ffce53dab145ac7bd67e39e7330, type: 3}
+  m_PrefabInstance: {fileID: 5485288085753317859}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1627960714
 GameObject:
@@ -59944,6 +60006,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4908271198624067923, guid: 547d38347a4c59f4cbcc21b4cc661a7f, type: 3}
+      propertyPath: m_Text
+      value: "Ma cosa \xE8 succeso qua?"
+      objectReference: {fileID: 0}
     - target: {fileID: 7965509337890670113, guid: 547d38347a4c59f4cbcc21b4cc661a7f, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 100.88
@@ -60695,3 +60761,4 @@ SceneRoots:
   - {fileID: 1851406652}
   - {fileID: 229188987}
   - {fileID: 718462981}
+  - {fileID: 1472286778}
