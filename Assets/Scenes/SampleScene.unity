@@ -2099,6 +2099,10 @@ PrefabInstance:
       value: NPC Holder
       objectReference: {fileID: 0}
     - target: {fileID: 5946608611494232204, guid: adcd8515ae93e2b4c99f5ed40179326a, type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946608611494232204, guid: adcd8515ae93e2b4c99f5ed40179326a, type: 3}
       propertyPath: dialog
       value: Ci devi aiutare!
       objectReference: {fileID: 0}
@@ -2136,11 +2140,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7541350275576174148, guid: adcd8515ae93e2b4c99f5ed40179326a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.8
+      value: 25.77
       objectReference: {fileID: 0}
     - target: {fileID: 7541350275576174148, guid: adcd8515ae93e2b4c99f5ed40179326a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.4
+      value: -5.78
       objectReference: {fileID: 0}
     - target: {fileID: 7541350275576174148, guid: adcd8515ae93e2b4c99f5ed40179326a, type: 3}
       propertyPath: m_LocalPosition.z

@@ -83,7 +83,7 @@ public class BoundedNPC : Sign
         }
     }
 
-    void ChangeDirection()
+    /*void ChangeDirection()
     {
         int direction = Random.Range(0, 4);
         switch (direction)
@@ -108,7 +108,36 @@ public class BoundedNPC : Sign
                 break;
         }
         UpdateAnimation();
+    }*/
+
+
+    void ChangeDirection()
+    {
+        int direction = Random.Range(0, 4);
+        switch (direction)
+        {
+            case 0:
+                // Walking to the right
+                directionVector = Vector3.right * Random.Range(1f, 4f); // Modificato per uno spostamento più grande lungo x
+                break;
+            case 1:
+                // Walking up
+                directionVector = Vector3.up * Random.Range(1f, 4f); // Modificato per uno spostamento più grande lungo y
+                break;
+            case 2:
+                // Walking Left
+                directionVector = Vector3.left * Random.Range(1f, 4f); // Modificato per uno spostamento più grande lungo x
+                break;
+            case 3:
+                // Walking down
+                directionVector = Vector3.down * Random.Range(1f, 4f); // Modificato per uno spostamento più grande lungo y
+                break;
+            default:
+                break;
+        }
+        UpdateAnimation();
     }
+
 
     void UpdateAnimation()
     {
