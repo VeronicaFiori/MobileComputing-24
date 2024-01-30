@@ -26,6 +26,7 @@ public class UomoDiPietra : Nemico
     // Update is called once per frame
     void FixedUpdate()
     {
+
         CheckDistance();
     }
     public virtual void CheckDistance()
