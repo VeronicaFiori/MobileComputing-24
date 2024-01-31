@@ -26,6 +26,12 @@ public class MovimentiPlayer : MonoBehaviour
     public SpriteRenderer receivedItemSprite;
     public SignalGame playerHit;
 
+    public Color flashColor;
+    public Color regularColor;
+    public float flashDuration;
+    public int numberOfFlashes;
+    public Collider2D triggerCollider;
+    public SpriteRenderer mySprite;
 
     public GameObject projectile;
     public Item bottigliaPozione;
@@ -176,11 +182,26 @@ public class MovimentiPlayer : MonoBehaviour
 
         if (myRigidbody != null)
         {
-          
+            StartCoroutine(FlashCo());
             yield return new WaitForSeconds(knockTime);
             myRigidbody.velocity = Vector2.zero;
             currentState = PlayerState.idle;
             myRigidbody.velocity = Vector2.zero;
         }
+    }
+
+    private IEnumerator FlashCo()
+    {
+        int temp = 0;
+        triggerCollider.enabled = false;
+        while (temp < numberOfFlashes)
+        {
+            mySprite.color = flashColor;
+            yield return new WaitForSeconds(flashDuration);
+            mySprite.color = regularColor;
+            yield return new WaitForSeconds(flashDuration);
+            temp++;
+        }
+        triggerCollider.enabled = true;
     }
 }
