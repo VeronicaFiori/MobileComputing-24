@@ -1,15 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [CreateAssetMenu]
-[System.Serializable]
 public class Inventory : ScriptableObject
 {
     public Item currentItem;
     public List<Item> items = new List<Item>();
     public int numberOfKeys;
     public int stars;
+
+
+   
 
     public bool CheckForItem(Item item)
     {
