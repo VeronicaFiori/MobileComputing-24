@@ -3158,11 +3158,11 @@ PrefabInstance:
       objectReference: {fileID: 3084707502295048422}
     - target: {fileID: 5946608611494232204, guid: adcd8515ae93e2b4c99f5ed40179326a, type: 3}
       propertyPath: maxMoveTime
-      value: 0.5
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5946608611494232204, guid: adcd8515ae93e2b4c99f5ed40179326a, type: 3}
       propertyPath: minMoveTime
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5946608611494232204, guid: adcd8515ae93e2b4c99f5ed40179326a, type: 3}
       propertyPath: playerInRange
