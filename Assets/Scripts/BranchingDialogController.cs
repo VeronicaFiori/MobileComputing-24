@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Ink.Runtime;
+using UnityEngine.UI;
 
 public class BranchingDialogController : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class BranchingDialogController : MonoBehaviour
     [SerializeField] private GameObject dialogHolder;
     [SerializeField] private GameObject choiceHolder;
     [SerializeField] private Story myStory;
+    [SerializeField] private ScrollRect dialogScroll;
 
     // Start is called before the first frame update
     void Start()
@@ -37,11 +39,20 @@ public class BranchingDialogController : MonoBehaviour
     {
         if (dialogValue.value)
         {
+            DeleteOldDialogs();
             myStory = new Story(dialogValue.value.text);
         }
         else
         {
             Debug.Log("no");
+        }
+    }
+
+    void DeleteOldDialogs()
+    {
+        for(int i=0; i < dialogHolder.transform.childCount; i++)
+        {
+            Destroy(dialogHolder.transform.GetChild(i).gameObject);
         }
     }
 
@@ -61,7 +72,17 @@ public class BranchingDialogController : MonoBehaviour
         {
             branchingCanvas.SetActive(false);
         }
+        StartCoroutine(ScrollCo());
     }
+
+
+    IEnumerator ScrollCo()
+    {
+        yield return null;
+        dialogScroll.verticalNormalizedPosition = 0f;
+    }
+
+
     void MakeNewDialog(string newDialog)
     {
         DialogObject newDialogObject = Instantiate(dialogPrefab, dialogHolder.transform).GetComponent<DialogObject>();
@@ -74,8 +95,16 @@ public class BranchingDialogController : MonoBehaviour
     {
         ResponseObject newResponseObject = Instantiate(choicePrefab, choiceHolder.transform).GetComponent<ResponseObject>();
         newResponseObject.SetUp(newDialog,choiceValue);
+        Button responseButton = newResponseObject.gameObject.GetComponent<Button>();
+        if(responseButton)
+        {
+            responseButton.onClick.AddListener(delegate { ChooseChoice(choiceValue); });
+        }
 
     }
+
+
+
     void MakeNewChoices()
     {
         for(int i=0;i< choiceHolder.transform.childCount; i++)
@@ -86,5 +115,12 @@ public class BranchingDialogController : MonoBehaviour
         {
             MakeNewResponse(myStory.currentChoices[i].text, i);
         }
+    }
+
+
+    void ChooseChoice(int choice)
+    {
+        myStory.ChooseChoiceIndex(choice);
+        RefreshView();
     }
 }

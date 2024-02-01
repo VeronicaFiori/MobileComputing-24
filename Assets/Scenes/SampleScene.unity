@@ -3128,6 +3128,14 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2884218378357029218, guid: adcd8515ae93e2b4c99f5ed40179326a, type: 3}
+      propertyPath: m_Size.y
+      value: 3.6679409
+      objectReference: {fileID: 0}
+    - target: {fileID: 2884218378357029218, guid: adcd8515ae93e2b4c99f5ed40179326a, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.024255157
+      objectReference: {fileID: 0}
     - target: {fileID: 4795168556491311599, guid: adcd8515ae93e2b4c99f5ed40179326a, type: 3}
       propertyPath: m_Name
       value: NPC Holder
@@ -45486,6 +45494,7 @@ MonoBehaviour:
   dialogValue: {fileID: 11400000, guid: 6acafed5b5c7b944c9f0160ad2b4d00e, type: 2}
   dialogHolder: {fileID: 2131315771}
   choiceHolder: {fileID: 991379010}
+  dialogScroll: {fileID: 1982698096}
 --- !u!1 &1576410803
 GameObject:
   m_ObjectHideFlags: 0
