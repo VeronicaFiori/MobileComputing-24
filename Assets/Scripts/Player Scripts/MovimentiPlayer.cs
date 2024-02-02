@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
+
 
 public enum PlayerState
 {
@@ -172,8 +174,10 @@ public class MovimentiPlayer : MonoBehaviour
         }
         else
         {
-            this.gameObject.SetActive(false);
+          //  this.gameObject.SetActive(false);
+            SceneManager.LoadScene("StartMenu");
         }
+
     }
 
     private IEnumerator KnockCo(float knockTime)

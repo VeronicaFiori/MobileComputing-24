@@ -1,9 +1,6 @@
-using Ink.Parsed;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
-using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -19,7 +16,6 @@ public class PauseMenu : MonoBehaviour
     void Start()
     {
         isPaused = false;
-        AudioListener.volume = 1;
 
     }
 
@@ -41,13 +37,23 @@ public class PauseMenu : MonoBehaviour
             pausePanel.SetActive(true);
             Time.timeScale = 0f;
         }
-        else 
+        else if (!isPaused)
         {
-            
+
             pausePanel.SetActive(false);
             Time.timeScale = 1f;
         }
-     
+        if (muted)
+        {
+            AudioListener.volume = 0;
+            mutotext.text = "Audio";
+        }
+        else if (!muted)
+        {
+            AudioListener.volume = 1;
+            mutotext.text = "Muto";
+        }
+
     }
 
     public void QuitToMain()
@@ -58,7 +64,8 @@ public class PauseMenu : MonoBehaviour
 
     public void Mute()
     {
-        muted = ! muted;
+        muted = !muted;
+
         if (muted)
         {
             AudioListener.volume = 0;
@@ -70,5 +77,5 @@ public class PauseMenu : MonoBehaviour
             mutotext.text = "Muto";
         }
     }
-    
+
 }
