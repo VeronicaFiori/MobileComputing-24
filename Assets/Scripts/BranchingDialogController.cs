@@ -26,7 +26,7 @@ public class BranchingDialogController : MonoBehaviour
     {
 
     }
-
+     
 
     public void EnableCanvas()
     {
