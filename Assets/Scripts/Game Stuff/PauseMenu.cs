@@ -20,15 +20,19 @@ public class PauseMenu : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+   // void Update()
+   // {
+   //     if (Input.GetButtonDown("pause"))
+   //     {
+  //          ChangePause();
+   //     }
+
+   // }
+
+    public void Pausa()
     {
-        if (Input.GetButtonDown("pause"))
-        {
-            ChangePause();
-        }
-
+        ChangePause();
     }
-
     public void ChangePause()
     {
         isPaused = !isPaused;

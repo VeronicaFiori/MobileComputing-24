@@ -137,6 +137,7 @@ SpriteAtlas:
     - 804370a031a89624c820842006a7352e: 21300000
     - 227ca4a0b25cd914f924aad8c7741c97: 21300000
     - ce216da079e450542b633949fc58f503: 21300000
+    - ead2ffb047249cd49b98aeb59d516401: 21300000
     - 903f83d0bea01394089b0f6137a1145e: 21300000
     - c4abcce0fb711b1458d3b4ef9d0e9757: 21300000
     - 7a53b8f0b0dd8084f9e0a64f95226562: 21300000
@@ -782,6 +783,7 @@ SpriteAtlas:
     - b8bcd414a142a9f499f7106d0b0b96e7: 21300000
     - 9ff90f1445ccf024e822bc7df32ec00e: 21300000
     - b5538224655011b478cd56c0e22db0a9: 21300000
+    - d5cbb624a821b8e4490b02af2c960c6a: 21300000
     - 7ba26924597029745989aefd1c02b601: 21300000
     - d8a7ef34fea844d40be70ab1ce1b5035: 21300000
     - 913db744ec99ce040a8168efef90c52e: 21300000
@@ -927,6 +929,7 @@ SpriteAtlas:
     - cdd7b0c80c2fef843a012cda498fc6cf: 21300000
     - e5e56fc89acd92e479d3aa23dfc591b9: 21300000
     - 66eca9d80d3aa4746bb797351d2f98dd: 21300000
+    - 38184fd8db33e6942ac4b1ef4c9fa603: 21300000
     - 350ff2f8f8bb4e0438ac6bd14676938c: 21300000
     - 62b75bf8b77aecd45848123aec0cf60e: 21300000
     - 3b58270986742ca4a86d7ebedbf25ba6: 21300000
@@ -2126,6 +2129,7 @@ SpriteAtlas:
     - 7cc0c4ace0ed14b4796ad37e9a0b3b40: 1390023200
     - 331bc5acae5427a45a737ae68253db6f: 21300000
     - 514236cc15351e1438b03d51f2e7824a: 21300000
+    - 0cf54bdc6e9bb5e4b99855ff8a02906a: 21300000
     - 947fb0ec3be373746a012beafc623d58: 21300000
     - 682c23eccf4448345a7d46054dcc8dcb: 21300000
     - 596465fc1a37b0b44b382f926fd7934e: 21300000
@@ -2842,6 +2846,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 804370a031a89624c820842006a7352e, type: 3}
   - {fileID: 21300000, guid: 227ca4a0b25cd914f924aad8c7741c97, type: 3}
   - {fileID: 21300000, guid: ce216da079e450542b633949fc58f503, type: 3}
+  - {fileID: 21300000, guid: ead2ffb047249cd49b98aeb59d516401, type: 3}
   - {fileID: 21300000, guid: 903f83d0bea01394089b0f6137a1145e, type: 3}
   - {fileID: 21300000, guid: c4abcce0fb711b1458d3b4ef9d0e9757, type: 3}
   - {fileID: 21300000, guid: 7a53b8f0b0dd8084f9e0a64f95226562, type: 3}
@@ -3487,6 +3492,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: b8bcd414a142a9f499f7106d0b0b96e7, type: 3}
   - {fileID: 21300000, guid: 9ff90f1445ccf024e822bc7df32ec00e, type: 3}
   - {fileID: 21300000, guid: b5538224655011b478cd56c0e22db0a9, type: 3}
+  - {fileID: 21300000, guid: d5cbb624a821b8e4490b02af2c960c6a, type: 3}
   - {fileID: 21300000, guid: 7ba26924597029745989aefd1c02b601, type: 3}
   - {fileID: 21300000, guid: d8a7ef34fea844d40be70ab1ce1b5035, type: 3}
   - {fileID: 21300000, guid: 913db744ec99ce040a8168efef90c52e, type: 3}
@@ -3632,6 +3638,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: cdd7b0c80c2fef843a012cda498fc6cf, type: 3}
   - {fileID: 21300000, guid: e5e56fc89acd92e479d3aa23dfc591b9, type: 3}
   - {fileID: 21300000, guid: 66eca9d80d3aa4746bb797351d2f98dd, type: 3}
+  - {fileID: 21300000, guid: 38184fd8db33e6942ac4b1ef4c9fa603, type: 3}
   - {fileID: 21300000, guid: 350ff2f8f8bb4e0438ac6bd14676938c, type: 3}
   - {fileID: 21300000, guid: 62b75bf8b77aecd45848123aec0cf60e, type: 3}
   - {fileID: 21300000, guid: 3b58270986742ca4a86d7ebedbf25ba6, type: 3}
@@ -4831,6 +4838,7 @@ SpriteAtlas:
   - {fileID: 1390023200, guid: 7cc0c4ace0ed14b4796ad37e9a0b3b40, type: 3}
   - {fileID: 21300000, guid: 331bc5acae5427a45a737ae68253db6f, type: 3}
   - {fileID: 21300000, guid: 514236cc15351e1438b03d51f2e7824a, type: 3}
+  - {fileID: 21300000, guid: 0cf54bdc6e9bb5e4b99855ff8a02906a, type: 3}
   - {fileID: 21300000, guid: 947fb0ec3be373746a012beafc623d58, type: 3}
   - {fileID: 21300000, guid: 682c23eccf4448345a7d46054dcc8dcb, type: 3}
   - {fileID: 21300000, guid: 596465fc1a37b0b44b382f926fd7934e, type: 3}
@@ -5546,6 +5554,7 @@ SpriteAtlas:
   - color_star_75
   - Button-7
   - Heart Fill
+  - Pause col_Square Button
   - cloud_tileA5_2
   - Button-1
   - Preview
@@ -6191,6 +6200,7 @@ SpriteAtlas:
   - Button4
   - SMS PNG Hearts
   - Panel6
+  - Menu Buttons sprite (Colored)
   - Button-9
   - cloudcity_chars_3
   - Button-11
@@ -6336,6 +6346,7 @@ SpriteAtlas:
   - Button-2
   - red
   - Button-13
+  - Menu Buttons sprite (BnW)
   - Purple
   - Button
   - Button-17
@@ -7535,6 +7546,7 @@ SpriteAtlas:
   - Overworld_129
   - brown_pressed
   - Button-2
+  - Pause Square Button
   - Button23
   - Button-10
   - green
