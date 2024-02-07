@@ -174,8 +174,8 @@ public class MovimentiPlayer : MonoBehaviour
         }
         else
         {
-          //  this.gameObject.SetActive(false);
-            SceneManager.LoadScene("StartMenu");
+            this.gameObject.SetActive(false);
+            SceneManager.LoadScene("GameOver");
         }
 
     }
