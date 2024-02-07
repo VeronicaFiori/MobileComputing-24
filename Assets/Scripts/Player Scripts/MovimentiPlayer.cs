@@ -37,6 +37,8 @@ public class MovimentiPlayer : MonoBehaviour
 
     public GameObject projectile;
     public Item bottigliaPozione;
+    public bool spada;
+    public bool pozione;
 
     void Start()
     {
@@ -60,16 +62,19 @@ public class MovimentiPlayer : MonoBehaviour
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
 
-        if(Input.GetButtonDown("attack") && currentState!= PlayerState.attack && currentState != PlayerState.stagger)
+        if( spada && currentState!= PlayerState.attack && currentState != PlayerState.stagger)
         {
             StartCoroutine(AttackCo());
+            spada = false;
         }
-        else if (Input.GetButtonDown("Second Weapon") && currentState != PlayerState.attack
+
+        else if (pozione && currentState != PlayerState.attack
           && currentState != PlayerState.stagger)
         {
             if (playerInventory.CheckForItem(bottigliaPozione))
             {
                 StartCoroutine(SecondAttackCo());
+                pozione = false;
             }
         }
         else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
@@ -77,6 +82,16 @@ public class MovimentiPlayer : MonoBehaviour
             UpdateAnimationAndMove();
         }
     }
+
+    public void Spada()
+    {
+        spada = true;
+    }
+    public void Pozione()
+    {
+        pozione = true;
+    }
+
 
     private IEnumerator AttackCo()
     {
