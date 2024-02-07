@@ -311,6 +311,7 @@ SpriteAtlas:
     - 7ac4b8e142c1fa044a107336b749bc5a: -678983967
     - dd313ae1158d6d647979d394d500e88e: 21300000
     - 36867ce1c1c28344e8c9fa8b20a23acf: 21300000
+    - 368a60f17a8b8de4bba448f7db7d34f8: -1459438238
     - 45ced2f18d812e1459040307e668d418: 21300000
     - f4ee4d023ddfe15458a35009be18ec5a: 21300000
     - 091fee0285999b4418ae287c9878324d: 21300000
@@ -832,6 +833,7 @@ SpriteAtlas:
     - 56d756c404ed74649856542096f9e7ad: -2118827054
     - 56d756c404ed74649856542096f9e7ad: -1768704599
     - 045c08c48719ce64e824a3551a354697: 21300000
+    - 0254d9e4d05097946905c26b148c7414: -1098309644
     - d292bbe455724a44f8fc2ec03024cce2: 21300000
     - 2d4bebf4072e0d849a7c0263fd4c6725: 21300000
     - 68714805a6f3418438043ce3e0a499a8: 21300000
@@ -3069,6 +3071,7 @@ SpriteAtlas:
   - {fileID: -678983967, guid: 7ac4b8e142c1fa044a107336b749bc5a, type: 3}
   - {fileID: 21300000, guid: dd313ae1158d6d647979d394d500e88e, type: 3}
   - {fileID: 21300000, guid: 36867ce1c1c28344e8c9fa8b20a23acf, type: 3}
+  - {fileID: -1459438238, guid: 368a60f17a8b8de4bba448f7db7d34f8, type: 3}
   - {fileID: 21300000, guid: 45ced2f18d812e1459040307e668d418, type: 3}
   - {fileID: 21300000, guid: f4ee4d023ddfe15458a35009be18ec5a, type: 3}
   - {fileID: 21300000, guid: 091fee0285999b4418ae287c9878324d, type: 3}
@@ -3590,6 +3593,7 @@ SpriteAtlas:
   - {fileID: -2118827054, guid: 56d756c404ed74649856542096f9e7ad, type: 3}
   - {fileID: -1768704599, guid: 56d756c404ed74649856542096f9e7ad, type: 3}
   - {fileID: 21300000, guid: 045c08c48719ce64e824a3551a354697, type: 3}
+  - {fileID: -1098309644, guid: 0254d9e4d05097946905c26b148c7414, type: 3}
   - {fileID: 21300000, guid: d292bbe455724a44f8fc2ec03024cce2, type: 3}
   - {fileID: 21300000, guid: 2d4bebf4072e0d849a7c0263fd4c6725, type: 3}
   - {fileID: 21300000, guid: 68714805a6f3418438043ce3e0a499a8, type: 3}
@@ -5826,6 +5830,7 @@ SpriteAtlas:
   - hearts-red_0
   - Button-14
   - Button-8
+  - Joystick_0
   - Button
   - Heart Fill
   - Slider2
@@ -6347,6 +6352,7 @@ SpriteAtlas:
   - SMS PNG Knight_Walk_SpriteSheet_4way_12
   - SMS PNG Knight_Walk_SpriteSheet_4way_1
   - blue_pressed
+  - JoystickBG_0
   - Button13
   - Button-20
   - Button-13

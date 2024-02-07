@@ -40,6 +40,13 @@ public class MovimentiPlayer : MonoBehaviour
     public bool spada;
     public bool pozione;
 
+
+
+    public MovementJoystick movementJoystick;
+ //   public float playerSpeed;
+ //   private Rigidbody2D rb;
+
+
     void Start()
     {
         currentState = PlayerState.walk;
@@ -50,6 +57,8 @@ public class MovimentiPlayer : MonoBehaviour
         transform.position = startingPosition.initialValue;
     }
 
+
+
     // Update is called once per frame
     void Update()
     {
@@ -59,10 +68,13 @@ public class MovimentiPlayer : MonoBehaviour
             return;
         }
         change = Vector3.zero;
-        change.x = Input.GetAxisRaw("Horizontal");
-        change.y = Input.GetAxisRaw("Vertical");
+        //  change.x = Input.GetAxisRaw("Horizontal");
+        //  change.y = Input.GetAxisRaw("Vertical");
+        change.x = movementJoystick.joystickVec.x;
+        change.y = movementJoystick.joystickVec.y;
 
-        if( spada && currentState!= PlayerState.attack && currentState != PlayerState.stagger)
+
+        if ( spada && currentState!= PlayerState.attack && currentState != PlayerState.stagger)
         {
             StartCoroutine(AttackCo());
             spada = false;
@@ -156,8 +168,10 @@ public class MovimentiPlayer : MonoBehaviour
     }
 
 
+
     void UpdateAnimationAndMove()
     {
+
         if (change != Vector3.zero)
         {
             MoveCharacter();
@@ -175,7 +189,21 @@ public class MovimentiPlayer : MonoBehaviour
     {
         change.Normalize();
         myRigidbody.MovePosition(transform.position + change * speed * Time.deltaTime);
+
     }
+
+
+   /* void FixedUpdate()
+    {
+        if (movementJoystick.joystickVec.y != 0)
+        {
+            myRigidbody.velocity = new Vector2(movementJoystick.joystickVec.x * speed, movementJoystick.joystickVec.y * speed);
+        }
+        else
+        {
+            myRigidbody.velocity = Vector2.zero;
+        }
+    }*/
 
     public void Knock(float knockTime, float damage)
     {
