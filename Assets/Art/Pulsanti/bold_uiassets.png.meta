@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,9 +119,1064 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: bold_uiassets_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1334
+        width: 286
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55337bb9a2eeebf42810b6c767a9923d
+      internalID: -1196034193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_1
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1334
+        width: 287
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e0e6fa102032e4189548c1882d2ef9
+      internalID: 815403878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_2
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1334
+        width: 287
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254eff4b725c9264e96f19fa4306e613
+      internalID: -709152769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_3
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1334
+        width: 286
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afeac260e1b8d694f888f8290057c21e
+      internalID: -1351602665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_4
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1334
+        width: 117
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746a7a45a0b2810458a358004df8498c
+      internalID: -967053780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_5
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 289
+        width: 125
+        height: 1164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b71fcbf362b5804c8d3cfbfbb981b5e
+      internalID: -1295085814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_6
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 397
+        width: 125
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239d130e1c38eb14da6b490627539076
+      internalID: -631739384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1160
+        width: 286
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e82ad9ef9ef26846a26d4204b555aeb
+      internalID: -166309411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_8
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1160
+        width: 287
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cc165894db9884ebf6b3ca76c88d79
+      internalID: -861567191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_9
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1160
+        width: 287
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df1513f9ea484445a971cd446e4e0f2
+      internalID: 1151148001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_10
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1156
+        width: 285
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316eaada69cc58e4d92ca7351ca26467
+      internalID: -252201871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_11
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1156
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7360aca224fc53b4797d1c3d460b1e77
+      internalID: 537914782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_12
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 987
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa536ee1e41270149a3a89ecd7ceaac4
+      internalID: 768351645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_13
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 987
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528f035be6f92df4b9b36c6ea430a0d2
+      internalID: -1286860878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_14
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 987
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e28fa4d91c02847a9fc2a0320e2e89
+      internalID: -1868268884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_15
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 987
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41e901a2395e1a4c9d3b0606da3f4b9
+      internalID: 265654513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_16
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 987
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af59499954e15b42ad64f96e17adc6e
+      internalID: 1996330058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_17
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 987
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1cf8fd10becf044da9db2cb3abda369
+      internalID: -1150635493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_18
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 991
+        width: 286
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a338c42c58b5b4bb6fa2b799fdf079
+      internalID: -87476533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_19
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 991
+        width: 117
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c350a0ee20ce4c4d8e3791c5e9e9200
+      internalID: 809450170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_20
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 813
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5154e2e2be576140a2f38c39e724995
+      internalID: 773743623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_21
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 813
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4641534f074b86240a051119e1cd3003
+      internalID: 27833658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_22
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 813
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ad724814224244488b881ac8a80a30
+      internalID: -376052549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_23
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 813
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56e2a5b48ed7b640a84660f95340778
+      internalID: 1442444543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_24
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 813
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9061734204e9dc348813bbf818d664b3
+      internalID: -1268998684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_25
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 813
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba6506a9976be3409ccd2be3d3bc749
+      internalID: 1924766059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_26
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 813
+        width: 285
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077e2bddb4a0c9340865d738bb72aff5
+      internalID: -988865912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_27
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 813
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0c6d0c29ce12f49b709c8997f49af5
+      internalID: 1832152519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_28
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 639
+        width: 286
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad4f3b718b636045b146f524e4aa503
+      internalID: -1388840848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_29
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 639
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7677271959cb4fb4fb2396df46b4cb88
+      internalID: 1276944177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_30
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 639
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d7d0c7d5bf54f4ebfa27cd2ec9fa0e
+      internalID: 1909227939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_31
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 639
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf58f5460a74914c80a80d298eed221
+      internalID: -1673955910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_32
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 639
+        width: 286
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29786566f210d6f46b31225a79ecaada
+      internalID: -731192996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_33
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 646
+        width: 85
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e6f577628b9184391645d48c5447a7
+      internalID: 1914510082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_34
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 598
+        width: 166
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51d4a98a699c794e9e5aff38ea5aca6
+      internalID: -850215752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_35
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 465
+        width: 286
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3145a2429b47964495847d39f51e662
+      internalID: -230094701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_36
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 465
+        width: 126
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d211548d0dd9345bbbcf426834ddc5
+      internalID: 792454280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_37
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 465
+        width: 126
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b694bd1957708ec4c9cb8cb65c00a46a
+      internalID: -1611704525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_38
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 465
+        width: 126
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1992c07938e4d4697b7be8e0b39602
+      internalID: -1697342402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_39
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 465
+        width: 286
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40153477635788744ad280310591d013
+      internalID: -892494858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_40
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 478
+        width: 85
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8b56cbdbc076e4cbcc379757408ea9
+      internalID: -297435049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_41
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 418
+        width: 118
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764282cd957d2854e96e53383fb22092
+      internalID: 1283296871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_42
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 287
+        width: 118
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f91e9c99ee80d341b91312609555544
+      internalID: -1660006744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_43
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 283
+        width: 1057
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7227c79dfd1dda42afd9564fe11d9e5
+      internalID: 869194422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_44
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 287
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a522b9374e36b4c9206223c6709827
+      internalID: -673470957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_45
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 60
+        width: 167
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fb3bc56f7a1544a8f787d4fcf23e6f
+      internalID: -2069851565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_46
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 81
+        width: 1164
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc9cd4f58bab4d4ca55f62781fb2cb7
+      internalID: 993009816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_47
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 60
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca12853284a161443aadff00c8c3eb18
+      internalID: 1371686167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_uiassets_48
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 80
+        width: 166
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71a28400a3af10419fa83ab50728169
+      internalID: -238202730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +1187,56 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bold_uiassets_0: -1196034193
+      bold_uiassets_1: 815403878
+      bold_uiassets_10: -252201871
+      bold_uiassets_11: 537914782
+      bold_uiassets_12: 768351645
+      bold_uiassets_13: -1286860878
+      bold_uiassets_14: -1868268884
+      bold_uiassets_15: 265654513
+      bold_uiassets_16: 1996330058
+      bold_uiassets_17: -1150635493
+      bold_uiassets_18: -87476533
+      bold_uiassets_19: 809450170
+      bold_uiassets_2: -709152769
+      bold_uiassets_20: 773743623
+      bold_uiassets_21: 27833658
+      bold_uiassets_22: -376052549
+      bold_uiassets_23: 1442444543
+      bold_uiassets_24: -1268998684
+      bold_uiassets_25: 1924766059
+      bold_uiassets_26: -988865912
+      bold_uiassets_27: 1832152519
+      bold_uiassets_28: -1388840848
+      bold_uiassets_29: 1276944177
+      bold_uiassets_3: -1351602665
+      bold_uiassets_30: 1909227939
+      bold_uiassets_31: -1673955910
+      bold_uiassets_32: -731192996
+      bold_uiassets_33: 1914510082
+      bold_uiassets_34: -850215752
+      bold_uiassets_35: -230094701
+      bold_uiassets_36: 792454280
+      bold_uiassets_37: -1611704525
+      bold_uiassets_38: -1697342402
+      bold_uiassets_39: -892494858
+      bold_uiassets_4: -967053780
+      bold_uiassets_40: -297435049
+      bold_uiassets_41: 1283296871
+      bold_uiassets_42: -1660006744
+      bold_uiassets_43: 869194422
+      bold_uiassets_44: -673470957
+      bold_uiassets_45: -2069851565
+      bold_uiassets_46: 993009816
+      bold_uiassets_47: 1371686167
+      bold_uiassets_48: -238202730
+      bold_uiassets_5: -1295085814
+      bold_uiassets_6: -631739384
+      bold_uiassets_7: -166309411
+      bold_uiassets_8: -861567191
+      bold_uiassets_9: 1151148001
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
