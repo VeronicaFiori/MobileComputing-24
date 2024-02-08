@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: PlayerInventory
   m_EditorClassIdentifier: 
   currentItem: {fileID: 0}
-  items: []
-  numberOfKeys: 0
+  items:
+  - {fileID: 11400000, guid: b51c384425b557d4d8b4cec351906293, type: 2}
+  numberOfKeys: 3
   stars: 0

@@ -17,15 +17,14 @@ public class DialogNPC : Interactable
     }
 
     // Update is called once per frame
-    void Update()
+    public void Parla()
     {
         if (playerInRange)
         {
-            if (Input.GetButtonDown("Check"))
-            {
+           
                 dialogValue.value = myDialog;
                 branchingDialogNotification.Raise();
-            }
+            
         }
             
      }

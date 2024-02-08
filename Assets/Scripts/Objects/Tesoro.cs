@@ -53,6 +53,7 @@ public class Tesoro : Interactable
         dialogBox.SetActive(true);
         dialogText.text = contents.itemDescription;
 
+
         playerInventory.AddItem(contents);
         playerInventory.currentItem = contents;
        

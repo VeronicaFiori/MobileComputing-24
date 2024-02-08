@@ -18,10 +18,10 @@ public class Door : Interactable
     public BoxCollider2D physicsCollider;
 
   
-    private void Update()
+    public void ApriPorta()
     {
-        if(Input.GetButtonDown("attack"))
-        {
+        
+        
             if (playerInRange && thisDoorType== DoorType.key)
             {
                 if (playerInventory.numberOfKeys > 0)
@@ -30,7 +30,7 @@ public class Door : Interactable
                     Open();
                 }
             }
-        }
+        
     }
     public void Open()
     {
