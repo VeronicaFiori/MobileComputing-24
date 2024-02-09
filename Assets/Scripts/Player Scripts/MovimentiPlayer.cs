@@ -86,8 +86,9 @@ public class MovimentiPlayer : MonoBehaviour
             if (playerInventory.CheckForItem(bottigliaPozione))
             {
                 StartCoroutine(SecondAttackCo());
-                pozione = false;
+               
             }
+            pozione = false;
         }
         else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
         {

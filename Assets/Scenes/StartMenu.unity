@@ -448,8 +448,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Nuovo Gioco
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ea5e3dc1b5d71f544a9d108fd2ae7b82, type: 2}
-  m_sharedMaterial: {fileID: 30833638771472329, guid: ea5e3dc1b5d71f544a9d108fd2ae7b82, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -582,8 +582,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: La Fortezza Magica
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ea5e3dc1b5d71f544a9d108fd2ae7b82, type: 2}
-  m_sharedMaterial: {fileID: 30833638771472329, guid: ea5e3dc1b5d71f544a9d108fd2ae7b82, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -784,8 +784,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Esci
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ea5e3dc1b5d71f544a9d108fd2ae7b82, type: 2}
-  m_sharedMaterial: {fileID: 30833638771472329, guid: ea5e3dc1b5d71f544a9d108fd2ae7b82, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
