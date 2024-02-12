@@ -68,7 +68,7 @@ public class LoginPagePlayFab : MonoBehaviour
     private void OnLoginSucces(LoginResult result)
     {
         messageText.text = "Loggin in";
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("StartMenu");
     }
 
     public void RecoveryUser()

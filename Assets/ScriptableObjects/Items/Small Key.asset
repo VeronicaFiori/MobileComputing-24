@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Small Key
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 21300000, guid: 4a40bc5850529c543a2828f4c984a97f, type: 3}
-  itemDescription: "E' una chiave! C'\xE8 una porta da qualche parte?"
+  itemDescription: E' una chiave!
   isKey: 1
